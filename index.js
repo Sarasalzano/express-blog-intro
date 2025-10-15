@@ -16,6 +16,34 @@ const posts = [
         "immagine": "/images/ciambellone.jpeg",
         "tags": ["colazione", "torte", "dolci"],
     },
+
+    {
+        "nome":"cracker barbabietola",
+        "contenuto":"ricetta cracker alla barbabietola",
+        "immagine": "/images/cracker_barbabietola.jpeg",
+        "tags": ["colazione", "cracker"],
+    },
+
+    {
+        "nome":"pane fritto dolce",
+        "contenuto":"ricetta pane fritto dolce",
+        "immagine": "/images/pane_fritto_dolce.jpeg",
+        "tags": ["colazione", "pane", "dolci"],
+    },
+
+    {
+        "nome":"pasta barbabietola",
+        "contenuto":"ricetta pasta lalla barbabietola",
+        "immagine": "/images/pasta_barbabietola.jpeg",
+        "tags": ["barbabietola", "bleah", "pasta"],
+    },
+
+    {
+        "nome":"torta paesana",
+        "contenuto":"ricetta torta paesana",
+        "immagine": "/images/torta_paesana.jpeg",
+        "tags": ["colazione", "torte", "dolci"],
+    },
 ];
 
 
