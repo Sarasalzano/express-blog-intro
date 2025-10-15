@@ -5,11 +5,18 @@ const app = express();
 //imposto la porta su cui il server ascolta
 const port = 3000;
 
+//accedo ai file statici dalla cartella public
+app.use(express.static("public"));
+
+// definisce la route principale "/" e invia una risposta al browser
 app.get("/", (req, res)=>{
     res.send("<h1>Server del mio blog</h1>")
 })
 
-// Avvia il server sulla porta specificata e mostra un messaggio in console quando è pronto
+
+
+
+//avvia il server sulla porta specificata e mostra un messaggio in console quando è pronto
 app.listen(port, ()=> {
     console.log(`example listening on port ${port}`)
 })
