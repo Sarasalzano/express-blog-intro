@@ -13,7 +13,7 @@ const posts = [
     {
         "nome":"ciambellone",
         "contenuto":"ricetta ciambellone",
-        "immagine":"/img/ciambellone.jpeg",
+        "immagine": "/images/ciambellone.jpeg",
         "tags": ["colazione", "torte", "dolci"],
     },
 ];
