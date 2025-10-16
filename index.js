@@ -1,11 +1,11 @@
-//importo framework express
+//importo framework express per creare e gestire server in node.js
 const express = require("express");
-//creo un'app
+//salvo express nella costante app
 const app = express();
-//imposto la porta su cui il server ascolta
+//imposto la porta su cui il server resterà in ascolto
 const port = 3000;
 
-//accedo ai file statici dalla cartella public
+//rendo accessibili i file statici 
 app.use(express.static("public"));
 
 //crea array post
@@ -46,13 +46,13 @@ const posts = [
     },
 ];
 
-
+//definisco una rotta all’indirizzo "/bacheca"
 app.get("/bacheca", (req, res)=>{
     res.json(posts);
 });
 
 
-// definisce la route principale "/" e invia una risposta al browser
+// definisco la rotta principale "/"
 app.get("/", (req, res)=>{
     res.send("<h1>Server del mio blog</h1>")
 });
