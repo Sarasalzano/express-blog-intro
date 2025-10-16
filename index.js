@@ -57,7 +57,7 @@ app.get("/", (req, res)=>{
     res.send("<h1>Server del mio blog</h1>")
 });
 
-//avvia il server sulla porta specificata e mostra un messaggio in console quando è pronto
+//avvia il server sulla porta specificata
 app.listen(port, ()=> {
     console.log(`example listening on port ${port}`)
 });
